@@ -342,11 +342,15 @@ html {
   scroll-behavior: smooth; }
 
 body {
-  background-color: #fff;
+  background-color: #FAFAFA;
   font-family: 'SF UI Display';
   font-weight: 400;
   color: #fff;
   position: relative; }
+
+sup {
+  vertical-align: super;
+  font-size: smaller; }
 
 a {
   text-decoration: none; }
@@ -382,7 +386,7 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: center;
   align-items: center;
   position: fixed;
-  width: 50px;
+  width: 35px;
   height: 100px;
   background-color: #403E3E;
   top: 60%;
@@ -391,7 +395,8 @@ h1, h2, h3, h4, h5, h6 {
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
   z-index: 100;
-  writing-mode: vertical-lr; }
+  writing-mode: vertical-lr;
+  font-size: 14px; }
   .up-panel:hover {
     text-decoration: none; }
 
@@ -593,7 +598,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .terms {
   margin-top: 20px;
-  color: #ABB6BE;
+  color: #7C7F81;
   font-size: 12px;
   line-height: 18px;
   padding-bottom: 10px;
@@ -608,7 +613,7 @@ h1, h2, h3, h4, h5, h6 {
   .road-map__list {
     max-width: 155px; }
   .road-map__list-item {
-    margin: 20px 0; }
+    margin: 10px 0; }
   .road-map__list-item:first-of-type {
     margin-top: 45px; }
   .road-map__link {
@@ -619,7 +624,9 @@ h1, h2, h3, h4, h5, h6 {
 .more {
   color: #7C7F81;
   margin-bottom: 10px;
-  margin-top: 20px; }
+  margin-top: 20px;
+  font-size: 12px;
+  line-height: 18px; }
 
 .more a {
   color: #0066CC; }
